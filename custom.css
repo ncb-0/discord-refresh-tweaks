@@ -1,0 +1,163 @@
+:root {
+  /* --radius-xs: 0; */
+  /* --radius-sm: 0; */
+  /* --radius-md: 0; */
+  /* --radius-lg: 0; */
+  /* --radius-xl: 0; */
+  /* --radius-xxl: 0; */
+  /* --radius-round: 0; */
+
+  --custom-app-top-bar-height: calc(14px + var(--space-sm));
+
+  /* --chat-input-icon-size: 16px; */
+}
+
+[class^="sidebarList"] {
+  /* border-right: 1px solid var(--border-faint); */
+  /* border-radius: 0 !important; */
+  border-top-left-radius: var(--radius-sm) !important;
+}
+
+.visual-refresh .channelBottomBarArea_f75fb0 .channelTextArea__74017 {
+  /* margin-bottom: var(--space-xs); */
+  margin-bottom: 0;
+
+  border-inline: none;
+  border-bottom: none;
+  /* border-top: 1px solid var(--app-border-frame); */
+  border-top: 1px solid var(--border-faint);
+  border-radius: 0 !important;
+  /* border: 1px solid var(--border-faint); */
+  transition: none !important;
+}
+
+.visual-refresh
+  .channelBottomBarArea_f75fb0
+  .channelTextArea__74017:focus-within {
+  /* border-top: 1px solid var(--app-border-frame); */
+  border-top: 1px solid var(--border-faint);
+  /* background: var(--background-primary); */
+}
+
+:where(.visual-refresh) .themedBackground__74017 {
+  /* background: var(--chat-background-default); */
+  background: var(--background-base-lower);
+  /* background: var(--background-primary); */
+  /* border: 1px solid var(--border-faint); */
+}
+
+.visual-refresh .form_f75fb0 {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-inline: 0;
+  padding-bottom: 2px;
+  /* border-radius: 0 !important; */
+  /* border: none; */
+}
+
+.scrollerInner__36d07 {
+  margin-bottom: 0;
+}
+
+.scrollableContainer__74017 {
+  border-radius: 0 !important;
+}
+
+.base_b88801 {
+  /* bottom: 53px; */
+  /* top: -10px; */
+  position: relative;
+  /* display: none; */
+  height: 12px;
+  /* bottom: var(--custom-app) */
+  /* font-size: 12px !important; */
+}
+
+.base_b88801 * {
+  font-size: 11px !important;
+}
+
+.cooldownText_b21699 {
+  font-size: 12px;
+}
+
+.visual-refresh .panels_c48ade {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-inline: none;
+  border-bottom: none;
+  border-radius: 0 !important;
+  /* border-right: none; */
+  border-top: 1px solid var(--app-border-frame);
+  /* border-right: 1px solid var(--border-faint); */
+  /* padding-left: var(--space-xs); */
+  /* padding-bottom: 2px; */
+  /* padding-top: -2px; */
+  background: var(--background-base-lowest);
+  /* background: var(--background-base-lowest); */
+  /* z-index: 10000000; */
+}
+
+.visual-refresh .panels_c48ade > .container__37e49 {
+  transform: translateY(-1px);
+  margin-left: var(--space-xs);
+}
+
+.activityPanel_c48ade {
+  padding-left: var(--space-md);
+  padding-right: var(--space-xs);
+  border-radius: 0 !important;
+  background: var(--background-base-lowest) !important;
+  /* padding-left: 0; */
+}
+
+.visual-refresh .scroller__629e4,
+.visual-refresh .scroller_ef3116 {
+  margin-bottom: 0;
+}
+
+.visual-refresh .wrapper_ef3116 {
+  margin-bottom: 0;
+}
+.visual-refresh .channelAttachmentArea_b77158 {
+  background: unset;
+  padding: var(--space-sm);
+  padding-bottom: 0;
+}
+
+.visual-refresh .title_f75fb0 {
+  padding-left: var(--space-xs);
+}
+
+.visual-refresh .content_f75fb0,
+.visual-refresh .subtitleContainer_f75fb0 {
+  border-left: 1px solid var(--border-subtle);
+}
+
+.visual-refresh .embedFull__623de {
+  border: 1px solid var(--border-subtle) !important;
+}
+
+.title_c38106 {
+  display: none;
+  justify-content: start;
+  padding-inline: var(--space-md);
+}
+
+.winButtons_c38106 {
+  gap: 0;
+}
+
+.leading_c38106,
+.trailing_c38106 {
+  gap: 0;
+}
+
+.anchor_edefb8 {
+  /* display: none; */
+}
+
+button[aria-label="Send a gift"] {
+  display: none;
+}
