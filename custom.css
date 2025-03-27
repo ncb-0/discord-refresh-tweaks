@@ -70,6 +70,13 @@
   /* display: none; */
   height: 12px;
   /* bottom: var(--custom-app) */
+  background: var(--background-primary);
+  left: 0 !important;
+  padding-inline: var(--space-16);
+  padding-block: 2px;
+  border-top: 1px solid var(--app-border-frame);
+  /* width: 100% !important; */
+
   /* font-size: 12px !important; */
 }
 
@@ -77,10 +84,15 @@
   font-size: 11px !important;
 }
 
-.cooldownText_b21699 {
-  font-size: 12px;
+.messagesWrapper__36d07 {
+  height: 100% !important;
+  /* margin-bottom: -12px !important; */
 }
 
+/* .cooldownText_b21699 {
+  font-size: 12px;
+}
+*/
 .visual-refresh .panels_c48ade {
   bottom: 0;
   left: 0;
@@ -113,7 +125,8 @@
 }
 
 .visual-refresh .scroller__629e4,
-.visual-refresh .scroller_ef3116 {
+.visual-refresh .scroller_ef3116,
+.visual-refresh .scroller__99e7c {
   margin-bottom: 0;
 }
 
@@ -131,8 +144,13 @@
 }
 
 .visual-refresh .content_f75fb0,
-.visual-refresh .subtitleContainer_f75fb0 {
+.visual-refresh .tabBody__133bf,
+.container__9293f {
   border-left: 1px solid var(--border-subtle);
+}
+
+.subtitleContainer_f75fb0 {
+  border-left: none !important;
 }
 
 .visual-refresh .embedFull__623de {
@@ -177,6 +195,6 @@ button[aria-label="Send a gift"] {
 #bd-notices > .bd-notice {
   width: max-content;
   padding-left: var(--space-lg);
-  place-self: center;
+  /* place-self: center; */
   border-radius: var(--radius-xs);
 }
