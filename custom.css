@@ -74,7 +74,7 @@
   left: 0 !important;
   padding-inline: var(--space-16);
   padding-block: 2px;
-  border-top: 1px solid var(--app-border-frame);
+  border-top: 1px solid var(--border-faint);
   /* width: 100% !important; */
 
   /* font-size: 12px !important; */
