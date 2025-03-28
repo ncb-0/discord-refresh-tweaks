@@ -101,7 +101,8 @@
   border-bottom: none;
   border-radius: 0 !important;
   /* border-right: none; */
-  border-top: 1px solid var(--app-border-frame);
+  /* border-top: 1px solid var(--app-border-frame); */
+  border-top: 1px solid var(--border-subtle);
   /* border-right: 1px solid var(--border-faint); */
   /* padding-left: var(--space-xs); */
   /* padding-bottom: 2px; */
@@ -119,8 +120,10 @@
 .activityPanel_c48ade {
   padding-left: var(--space-md);
   padding-right: var(--space-xs);
+  border-bottom: 1px solid var(--border-subtle) !important;
   border-radius: 0 !important;
   background: var(--background-base-lowest) !important;
+  /* border-bottom: none; */
   /* padding-left: 0; */
 }
 
