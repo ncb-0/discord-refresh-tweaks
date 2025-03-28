@@ -70,7 +70,8 @@
   /* display: none; */
   height: 12px;
   /* bottom: var(--custom-app) */
-  background: var(--background-primary);
+  /* background: var(--background-primary); */
+  background: var(--background-base-lower);
   left: 0 !important;
   padding-inline: var(--space-16);
   padding-block: 2px;
@@ -149,7 +150,9 @@
 .visual-refresh .content_f75fb0,
 .visual-refresh .tabBody__133bf,
 .container__9293f {
-  border-left: 1px solid var(--border-subtle);
+  border-left: 1px solid var(--border-subtle) !important;
+  /* border-left: 1px solid red; */
+  /* border-left: 1px solid var(--app-border-frame); */
 }
 
 .subtitleContainer_f75fb0 {
